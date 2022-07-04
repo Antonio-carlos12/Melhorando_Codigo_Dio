@@ -1,0 +1,26 @@
+{
+  "name": "melhorando_codigo_dio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm prune",
+    "watch": "tsc --watch",
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Penelope120/Melhorando_Codigo_Dio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Penelope120/Melhorando_Codigo_Dio/issues"
+  },
+  "homepage": "https://github.com/Penelope120/Melhorando_Codigo_Dio#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "parcel-bundler": "^1.12.5"
+  }
+}
